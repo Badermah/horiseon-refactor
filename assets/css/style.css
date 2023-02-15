@@ -4,10 +4,12 @@
   margin: 0;
 }
 
+/* Background color of the page */
 body {
   background-color: #d9dcd6;
 }
-
+/* Adds padding to the header, changes the font family, 
+adds background color, and text color.*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,7 +17,7 @@ body {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* Changes the font size of the text in the header, and displays the text inline */
 .header h1 {
   display: inline-block;
   font-size: 48px;
@@ -24,17 +26,13 @@ body {
 .header h1 .seo {
   color: #d9dcd6;
 }
-
+/* Padding to the header nav bar, margin all around, adjusts font family and size */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
   font-size: 20px;
-}
-
-.header nav ul {
-  list-style-type: none;
 }
 
 .header nav ul li {
@@ -44,9 +42,9 @@ body {
 
 a {
   color: #ffffff;
-  text-decoration: none;
 }
 
+/* Font size for all text within a <p> element */
 p {
   font-size: 16px;
 }
@@ -70,12 +68,17 @@ p {
   margin-left: 25px;
 }
 
+/* This is for all of the text boxes with search engine optimization,
+online reputation management, and social media marketing. */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* This is the box on the right with all the text and images
+it adds a margin, padding for how big the box is, height and width,
+background color, and font familyt */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,116 +90,50 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-side {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
 
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-side h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
 
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
+.benefit-side img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Adds margin, padding, height, font family, background color,
+and color to all the big blue text boxes */
+.big-text {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* adds a max height to all the images in the big blue boxes */
+.big-text img {
   max-height: 200px;
 }
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Adds a margin and adjusts font size for all h2 headers in the blue boxes */
+.big-text h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/* Padding around the footer that says "Made with ❤️️ by Horiseon" 
+adds font family, and centers the text */
 .footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
-}
-
-.footer h2 {
-  font-size: 20px;
 }
